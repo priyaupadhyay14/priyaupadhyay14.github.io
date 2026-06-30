@@ -5,3 +5,7 @@ gem "minimal-mistakes-jekyll"
 gem 'jekyll-redirect-from'
 
 gem "kramdown-parser-gfm", "~> 1.1"
+
+# Required on Windows for timezone support
+gem "tzinfo"
+gem "tzinfo-data"
